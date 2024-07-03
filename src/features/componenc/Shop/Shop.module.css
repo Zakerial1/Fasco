@@ -1,0 +1,169 @@
+.name_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Volkhov';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 76.19% */
+    text-transform: capitalize;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5%;
+    justify-content: space-between;
+}
+
+.filtr {
+    margin-right: 30px;
+}
+
+.but_size {
+    border-radius: 5px;
+    border: 1px solid #8A8A8A;
+    color: #8A8A8A;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 8px 17.61px 10px 16.39px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.tovar {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.plachka {
+    margin: 10px;
+    color: #000;
+    font-family: "Volkhov";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+.box_filtr{
+    margin: 8px 0px;
+}
+.sort_plaska {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box_cost {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box_brands {
+    width: 230px;
+}
+
+.cost {
+    color: #8A8A8A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    border: none;
+    background: none;
+    margin: 5px 0px ;
+}
+
+.cost_poz {
+    display: flex;
+    align-items: start;
+}
+
+.img_plashka {
+    width: 303px;
+    height: 404px;
+}
+.box_page_plashka{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: center;
+}
+.page_plashka{
+    margin: 15px;
+    width: 44px;
+    height: 44px;
+    border-radius: 35px;
+    border: none;
+}
+.page_plashka:active{
+    background-color: antiquewhite;
+}
+.page_plashka_active{
+    background-color: aquamarine;
+}
+.peaky_blinders {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.box_peaky_blinders_Img {
+    width: 50%;
+}
+
+.box_peaky_blinders_Lorem {
+    width: 50%;
+    display: block;
+    justify-content: start;
+    padding: 50px;
+    background-image: url("https://i.imgur.com/DmKwP4S.png");
+
+}
+.peaky_blinders_Lorem{
+    margin-left: 150px;
+}
+.women_coll{
+    color: #767676;
+    margin: 8px 0px;
+}
+.paeky_H2{
+    font-size: 46px;
+    font-family: "Volkhov";
+    color: #484848;
+}
+.paeky_Des{
+    text-decoration: underline;
+    color: black;
+}
+.but_Sign{
+    margin: 30px 0px;
+    padding: 20px 82px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+.but_Sign:hover{
+    box-shadow:0 0 15px #1e1e1e;
+    transition: all 0.4s ease-out;
+}
+.name_Product{
+    font-size: 16px;
+    font-family: ' Volkhov-Regular';
+}

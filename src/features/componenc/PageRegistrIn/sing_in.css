@@ -1,0 +1,94 @@
+.box_main_sing{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: center;
+}
+.img_sing{
+    height: 600px;
+    width: 95%;
+    margin: 15px;
+}
+.textFASCO{
+    margin: 5px;
+}
+.box_registr{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.box_logoFASCO{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icon_Sign{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.but_Sign_up{
+    display: flex;
+    background: none;
+    border: #5B86E5 solid;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 5px 0px;
+    align-items: center;
+}
+.text_or{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: #838383;
+    font-family: 'Poppins';
+}
+.inp_sing{
+    margin: 15px 15px 15px 0px ;
+    background-color: none;
+    border-top: #838383;
+    border-left: #838383;
+    border-right: #838383;
+    width: 100%;
+    color: #9D9D9D;
+    padding: 7px;
+}
+.but_Sign_In{
+    width: 100%;
+    padding: 15px 26px;
+    border-radius: 10px;
+    background: #000;
+    color: white;
+    margin-top: 15px;
+}
+.but_registr_now{
+    width: 100%;
+    padding: 15px 26px;
+    border-radius: 10px;
+    border:#5B86E5 solid;
+    color: #5B86E5;
+    background-color: none;
+    margin-top: 15px;
+}
+.box_password{
+    display: flex;
+
+}
+.box_registr_row{
+    display: flex;
+    flex-direction: row;
+
+}
+.box_Sign_Google{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+.Sign_Google{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

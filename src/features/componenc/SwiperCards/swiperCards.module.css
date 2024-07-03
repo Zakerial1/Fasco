@@ -1,0 +1,179 @@
+#app {
+    height: 100%
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+.mySecondSwiper body {
+    position: relative;
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySecondSwiper .mySwiper {
+    width: 500px;
+    height: 300px;
+}
+
+.mySecondSwiper.swiper-slide {
+    width: 200px;
+    /* Новая ширина карточки */
+    height: 300px;
+    /* Новая высота карточки */
+}
+
+.mySecondSwiper.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+    width: 200px;
+    /* Новая ширина карточки */
+    height: 300px;
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+    width: 200px;
+    /* Новая ширина карточки */
+    height: 300px;
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+    width: 200px;
+    /* Новая ширина карточки */
+    height: 300px;
+}
+
+.swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+    width: 200px;
+    /* Новая ширина карточки */
+    height: 300px;
+}
+
+.swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+    width: 200px;
+    /* Новая ширина карточки */
+    height: 300px;
+}
+
+.swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+}
+
+.boxCard {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.swiper-slide img {
+    width: 242px;
+    height: 242px;
+}
+
+.boxInfo {
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-start; */
+    align-items: flex-start;
+    padding: 0px 70px;
+    font-family: "Poppins";
+}
+
+.swiper-3d .swiper-slide-shadow {
+    border-radius: 15px;
+}
+
+.imgCard {
+    width: 242px;
+    height: 242px;
+}
+
+.swiper-slide-shadow .swiper-slide-shadow-cards {
+    border-radius: 15px !important;
+}
+.swiper-slide{
+    border-radius: 15px !important;
+}
+.swiper-cards .swiper-slide {
+    border-radius: 15px !important;
+}
+
+.swiper-slide .swiper-slide-visible .swiper-slide-fully-visible .swiper-slide-active .swiper-3d .swiper-slide-shadow{
+    border-radius: 15px !important;
+
+}
+
+.swiper-3d .swiper-slide-shadow {
+    border-radius: 15px !important;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.infoText {
+    font-size: 16px;
+    display: flex;
+    text-align: start;
+    margin-bottom: 50px;
+    color: #484848;
+}
+
+.nameKlient {
+    font-family: "volkhov";
+}
+
+.profKlient {
+    font-size: 16px;
+    color: #484848;
+}

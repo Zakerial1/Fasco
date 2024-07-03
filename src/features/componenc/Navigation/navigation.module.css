@@ -1,0 +1,63 @@
+a {
+    text-decoration: none
+}
+
+.box_navigation_modul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linkNavig {
+    margin: 14px;
+    color: #484848;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.4s ease-out;
+    padding: 10px;
+    border-radius: 10px;
+}
+.linkNavig:hover{
+    box-shadow: 0 0 15px #1e1e1e;
+    transition: all 0.4s ease-out;
+}
+.but_Sign {
+    padding: 20px 46px;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+.box_registr_shadow{
+    display: none;
+}
+.box_registr{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.4s ease-out;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+    color: white;
+    margin-left: 10px;
+}
+.box_registr:hover{
+    box-shadow: 0 0 15px #1e1e1e;
+    transition: all 0.4s ease-out;
+}
+.imgUser{
+    width: 30px;
+    height: 30px;
+    border-radius: 7.5px;
+    margin-right: 5px;
+}
+.box_Sign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

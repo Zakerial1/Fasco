@@ -1,0 +1,345 @@
+.box_main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:100px ;
+} 
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20%;
+}
+
+.infoPlashka {
+    margin: 0px 20px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box_imgCarousel {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    height: 404px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80px;
+    padding-right: 80px;
+}
+
+.imgCarousel {
+    width: 40px;
+    height: 60px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.imgCarousel:hover {
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.img_plashka {
+    width: 303px;
+    height: 404px;
+}
+
+.box_uniq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.uniq {
+
+    border-radius: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.grei {
+    background-color: gray;
+    width: 100%;
+}
+
+.but_Size {
+    padding: 8px;
+    background-color: white;
+    border-radius: 3px;
+    border: 0.01rem solid rgb(206, 206, 206);
+
+    margin: 5px;
+}
+
+.but_Size:active {
+    background-color: black;
+    color: white;
+}
+.but_Size_active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.but_color {
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.but_color_active {
+    border: none;
+}
+
+.but_color_deactive {
+    border-radius: 100%;
+
+}
+
+.box_corzina {
+    display: none;
+    justify-content: flex-start;
+}
+
+.box_corzina_block {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+}
+
+.box_corzina_hidden {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(187, 187, 187);
+}
+
+.corzina_butNone {
+    display: none;
+}
+
+.corzina_butBlock {
+    padding: 30px;
+    display: block;
+    position: fixed;
+    right: 0px;
+    background-color: white;
+    height: 100%;
+    width: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.head_corzina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_close {
+    width: 10px;
+    height: 10px;
+}
+
+.img_corzina {
+    width: 148px;
+    height: 182px;
+    margin: 0px 10px 0px 0px;
+}
+
+.name_item {
+    font-family: "Volkhov", sans-serif;
+    font-weight: 400;
+}
+
+.cost_item {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.box_corzina_item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.but_corzina_item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.box_corzina {
+    display: flex;
+    flex-direction: column;
+}
+
+.but_quantity {
+    border: none;
+    padding: 0px 8px;
+    font-size: 25px;
+
+}
+
+.box_checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60%;
+}
+
+.but_checkbox {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.but_close {
+    border: none;
+    background-color: white;
+    margin-left: 100px;
+    display: flex;
+    height: 10px;
+}
+.box_quantity{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    align-items: center;
+}
+.quantity_item{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: baseline;
+    font-size: 21px;
+    border-radius: 3px;
+    border:rgb(135, 135, 135) solid 0.002em;
+}
+
+.but_Add{
+    padding: 7px 80px;
+    border-radius: 3px;
+    width: 100%;
+    height: 46px;
+    background-color: white;
+
+
+}
+.p_quantity{
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    background-color: white;
+    font-size: 21px;
+}
+.butQuantity{
+    margin:5px;
+    padding: 4px;
+    border: none;
+    background-color: white;
+    font-size: 21px;
+}
+.box_comment{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    padding: 10px 20%;
+    width: 70%;
+    justify-content: center;
+}
+.starIMG{
+    width: 20px;
+    height: 20px;
+    z-index: -3;
+}
+.starIMGOff{
+    
+    width: 20px;
+    height: 20px;
+}
+.starIMGHalfOff{
+    display: none;
+}
+.starIMGHalfOn{
+    display: block;
+    margin: -24px 0px 0px 0px;
+    width: 10px;
+    height: 20px;
+
+}
+
+.starIMGDUp{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100px;
+    height: 20px;
+    top: 0px; 
+    left: 0px;
+    
+}
+.starIMGDown{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 0%;
+    height: 20px;
+    top:-20px; 
+    left: 0px;
+    z-index: -3px;
+    overflow: hidden;
+}
+.starIMGDownTwo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 3%;
+    height: 20px;
+    top:-20px; 
+    left: 0px;
+    z-index: -3px;
+    overflow: hidden;
+}
+.Comments_box{
+    margin-bottom: 20px;
+}
+.Comments{
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(198, 254, 235);
+    border-radius: 5px;
+}
+.Comment_box{
+    display: flex;
+    flex-direction: column;
+}
+.NameCurrentUser{
+    font-size: 20px;
+}
+.Comments_current{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.textComment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p_textComment{
+    flex-wrap: wrap;
+    white-space: inherit;
+    word-break: break-all;
+}

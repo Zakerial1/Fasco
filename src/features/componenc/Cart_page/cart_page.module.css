@@ -1,0 +1,10 @@
+.box_cart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.box_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

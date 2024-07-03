@@ -1,0 +1,78 @@
+.box_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 5%;
+}
+.box_Shopping{
+    display: flex;
+    justify-content: center;
+    margin: 30px 15px;
+}
+.box_character{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px;
+    padding: 10px;
+}
+.box_product{
+    display: flex;
+    flex-direction: row;
+}
+.box_product_img{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text_color_grey{
+    color: gray;
+    margin: 5px 0px;
+}
+.box_description{
+    margin-left: 10px;
+}
+.box_quantity_corzina{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: rgb(244, 244, 244);
+    height: 35px;
+    border-radius: 5px;
+    border: 0.1rem solid  #aeadad;
+    
+    padding: 3px 3px 5px 3px;
+}
+.box_quantity_temp{
+    margin: 0px 5px;
+    padding: 4px;
+    border: none;
+    
+    background: none;
+    align-items: baseline;
+}
+.icon_actions{
+    width: 10px;
+}
+.p_quantity{
+    width: 10px;
+    font-size: 20px;
+    color: #8A8A8A;
+}
+.box_store{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.box_subtotal{
+    display: flex;
+    flex-direction: column;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h3_quantity{
+    width: 70px;
+}

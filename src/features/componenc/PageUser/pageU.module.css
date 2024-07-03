@@ -1,0 +1,32 @@
+.box_user_info{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+}
+.box_setting{
+    display: flex;
+    flex-direction: row;
+
+}
+.box_main_user{
+    padding: 30px;
+}
+.setting_profil{
+    margin: 8px;
+    padding: 5px;
+}
+.inp_setting_profil{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 8px;
+}
+.img_User{
+    width: 90px;
+    height: 110px;
+
+}
+.box_info_user{
+    display: flex;
+    flex-direction: row;
+}
