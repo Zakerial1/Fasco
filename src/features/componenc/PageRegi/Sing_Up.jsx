@@ -15,40 +15,18 @@ function Sing_Up() {
     const [email, setEmail] = useState();
     const [Phone_Number, setPhone_Number] = useState();
     const [Password, setPassword] = useState();
-    const [GOOGLE_SCOPES, setGOOGLE_SCOPES] = useState([
-        'https://www.googleapis.com/auth/userinfo.email', // доступ до адреси електронної пошти
-        'https://www.googleapis.com/auth/userinfo.profile' // доступ до інформації профілю
-    ]);
-    const [GOOGLE_AUTH_URI, setGOOGLE_AUTH_URI] = useState('https://accounts.google.com/o/oauth2/auth');
-    const [GOOGLE_TOKEN_URI, setGOOGLE_TOKEN_URI] = useState('https://accounts.google.com/o/oauth2/token');
-    const [GOOGLE_USER_INFO_URI, setGOOGLE_USER_INFO_URI] = useState('https://www.googleapis.com/oauth2/v1/userinfo');
-    const [GOOGLE_CLIENT_ID, setGOOGLE_CLIENT_ID] = useState('479684631489-4dtme99m3c9htjil6k43i8pv443hrjf5.apps.googleusercontent.com');
-    const [GOOGLE_CLIENT_SECRET, setGOOGLE_CLIENT_SECRET] = useState('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')
-    const [GOOGLE_REDIRECT_URI, setGOOGLE_REDIRECT_URI] = useState('http://localhost:3000')
-    const ApiGoogle = () => {
-            return{
-        // axios.post("https://www.googleapis.com/auth/drive.metadata.readonly", {
-            'client_id': GOOGLE_CLIENT_ID,
-            'redirect_uri': GOOGLE_REDIRECT_URI,
-            'response_type': 'code',
-            'scope': GOOGLE_SCOPES.join(" "),
-            'include_granted_scopes': 'true',
-            'state': 'pass-through value'}
-        // })
-
-
-    }
-    useEffect(()=>{
-        const ARR = {'client_id': GOOGLE_CLIENT_ID,
-            'redirect_uri': GOOGLE_REDIRECT_URI,
-            'response_type': 'code',
-            'scope': GOOGLE_SCOPES.join(" "),
-            'include_granted_scopes': 'true',
-            'state': 'pass-through value'
-        }
-        console.log(`${GOOGLE_AUTH_URI}?response_type=code&redirect_uri=${GOOGLE_REDIRECT_URI}&client_id=479684631489-4dtme99m3c9htjil6k43i8pv443hrjf5.apps.googleusercontent.com&scope=${GOOGLE_SCOPES.join(" ")}`);
-    },[])
-    const [URLsGoogle, setURLsGoogle] = useState(`${GOOGLE_AUTH_URI}`, ApiGoogle())
+    
+    // useEffect(()=>{
+    //     const ARR = {'client_id': GOOGLE_CLIENT_ID,
+    //         'redirect_uri': GOOGLE_REDIRECT_URI,
+    //         'response_type': 'code',
+    //         'scope': GOOGLE_SCOPES.join(" "),
+    //         'include_granted_scopes': 'true',
+    //         'state': 'pass-through value'
+    //     }
+    //     console.log(`${GOOGLE_AUTH_URI}?response_type=code&redirect_uri=${GOOGLE_REDIRECT_URI}&client_id=479684631489-4dtme99m3c9htjil6k43i8pv443hrjf5.apps.googleusercontent.com&scope=${GOOGLE_SCOPES.join(" ")}`);
+    // },[])
+    // const [URLsGoogle, setURLsGoogle] = useState(`${GOOGLE_AUTH_URI}`, ApiGoogle())
     return (
         <div>
             <div className="box_main_sing">
@@ -67,9 +45,9 @@ function Sing_Up() {
                                     <img className='icon_Sign' src='https://i.imgur.com/gRXfggd.png' onClick={() => {
                                         
                                     }} />
-                                    <a href ={`${URLsGoogle}`} >
+                                    {/* <a href ={`${URLsGoogle}`} >
                                         Sign up with Google
-                                    </a>
+                                    </a> */}
                                 </button>
                                 <button className="but_Sign_up">
                                     <img className='icon_Sign' src='https://i.imgur.com/pMIKUH8.png' /> Sign up with Email
