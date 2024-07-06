@@ -78,7 +78,7 @@ const SupportChat = () => {
         <div className={tempory ? styles.support : styles.supportArea} >
             <div className={styles.boxContent_support}>
                 <div className={styles.supportManager}>
-                    <img className={styles.supportImg} src='https://i.imgur.com/HiQSyaJ.png' alt='Support' onClick={() => setTempory(false)} />
+                    <img  className={styles.supportImg} src='https://i.imgur.com/HiQSyaJ.png' alt='Support' onClick={() => setTempory(false)} />
                     <p>Поддержка</p>
                     <button onClick={() => setTempory(true)
 

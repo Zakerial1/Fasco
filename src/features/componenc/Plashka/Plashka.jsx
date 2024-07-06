@@ -37,7 +37,7 @@ function Plashka() {
             return false;
         }).map((item, index) => {
             return  <Link to={`/Shop/${item.id}`}><div className={styles.plachka} key={index}>
-                <img className={styles.img_plashka} src={item.img} />
+                <img alt="React logo" className={styles.img_plashka} src={item.img} />
                 <p className={styles.name_Product}>{item.name}</p>
                 <p>$ {item.cost}</p>
                 <p>{item.date}</p>

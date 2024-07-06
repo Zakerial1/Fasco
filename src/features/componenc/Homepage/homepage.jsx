@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navigation from "../Navigation/Navigation";
 import Paeky from "../paeky_blinder/peaky_blinders";
 import styles from'../Homepage/homepage.module.css';
@@ -12,51 +12,53 @@ import i18next from '../Route/i18n.js'
 function Homepage() {
     const targetDate = new Date('2024-08-31T23:59:59');
     const swiper = useSwiper();
+
+    
     return (
         <div >
             <div className={styles.box_prew}>
                 <div className={styles.box_img}>
-                    <img src="https://i.imgur.com/nJdFOBr.png" />
+                <img alt="React logo" src="https://i.imgur.com/nJdFOBr.png" />
                 </div>
                 <div className={styles.box_imgPrew}>
                     <div className={`${styles.box_bg} ${styles.woman}`}>
-                        <img src="https://i.imgur.com/u5qfWkb.png" />
+                        <img alt="React logo" src="https://i.imgur.com/u5qfWkb.png" />
                     </div>
                     <div className={styles.box_Ultim}>
-                        <img src="https://i.imgur.com/II5Lqsx.png" className={styles.img_Ultim} />
-                        <img src="https://i.imgur.com/peg4LrS.png" className={styles.img_Ultim} />
-                        <img src="https://i.imgur.com/cSoNVdB.png" className={`${styles.img_Ultim} ${styles.newColl}`}/>
+                        <img alt="React logo" src="https://i.imgur.com/II5Lqsx.png" className={styles.img_Ultim} />
+                        <img  alt="React logo" src="https://i.imgur.com/peg4LrS.png" className={styles.img_Ultim} />
+                        <img  alt="React logo" src="https://i.imgur.com/cSoNVdB.png" className={`${styles.img_Ultim} ${styles.newColl}`}/>
                         <div className={styles.box_butSHOP}>
                             <button className={styles.but_Sign}>{i18next.t("shop_now")}</button>
 
                         </div>
                     </div>
                     <div className={styles.box_bg}>
-                        <img src="https://i.imgur.com/z9V1UPj.png" />
+                        <img alt="React logo" src="https://i.imgur.com/z9V1UPj.png" />
                     </div>
                 </div>
                 <div className={styles.box_img}>
                     <div className="">
-                        <img src="https://i.imgur.com/oc175wb.png" />
+                        <img alt="React logo" src="https://i.imgur.com/oc175wb.png" />
                     </div>
                 </div>
             </div>
             <div>
                 <div className={styles.box_logo_Companie}>
                     <div className={styles.logo_Companye}>
-                        <img src="https://i.imgur.com/VI80XwS.png" />
+                        <img alt="React logo" src="https://i.imgur.com/VI80XwS.png" />
                     </div>
                     <div className={styles.logo_Companye}>
-                        <img src="https://i.imgur.com/eL3rb41.png" />
+                        <img alt="React logo" src="https://i.imgur.com/eL3rb41.png" />
                     </div>
                     <div className={styles.logo_Companye}>
-                        <img src="https://i.imgur.com/xsVw8CE.png" />
+                        <img alt="React logo" src="https://i.imgur.com/xsVw8CE.png" />
                     </div>
                     <div className={styles.logo_Companye}>
-                        <img src="https://i.imgur.com/e5eVPQP.png" />
+                        <img alt="React logo" src="https://i.imgur.com/e5eVPQP.png" />
                     </div>
                     <div className={styles.logo_Companye}>
-                        <img src="https://i.imgur.com/S6D0nLa.png" />
+                        <img alt="React logo" src="https://i.imgur.com/S6D0nLa.png" />
                     </div>
                 </div>
             </div>
@@ -76,10 +78,10 @@ function Homepage() {
                         </div>
                         <div className={styles.box_but_img}>
                             {/* <button className={styles.but_arrow} onClick={() => swiper.slideNext()}>
-                                <img className={styles.arrow} src='https://i.imgur.com/nZDCuk4.png'/>
+                                <img alt="React logo" className={styles.arrow} src='https://i.imgur.com/nZDCuk4.png'/>
                             </button> */}
                             {/* <button className={styles.but_arrow}  onClick={() => swiper.slideNext()}>
-                                <img className={styles.arrow} src='https://i.imgur.com/IVGe5a3.png'/>fghjkl
+                                <img alt="React logo" className={styles.arrow} src='https://i.imgur.com/IVGe5a3.png'/>fghjkl
                             </button> */}
                         </div>
 
@@ -87,13 +89,13 @@ function Homepage() {
                     <div className={styles.img_sale}>
                     <SwiperIMGWoman/>
                         {/* <div className={styles.img_sale_main}>
-                            <img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" />
+                            <img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" />
                         </div>
                         <div className={styles.box_img_woman}>
-                            <img className={styles.img_woman_sale_main} src="https://i.imgur.com/LemOslv.png" />
+                            <img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/LemOslv.png" />
                         </div>
                         <div className={styles.box_img_woman}>
-                            <img className={styles.img_woman_sale_main} src="https://i.imgur.com/E8C0ECl.png" />
+                            <img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/E8C0ECl.png" />
                         </div> */}
                     </div>
                 </div>

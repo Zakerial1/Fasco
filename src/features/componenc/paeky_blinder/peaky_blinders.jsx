@@ -4,7 +4,7 @@ function Paeky(){
     return(
 <div className={styles.peaky_blinders}>
                 <div className={styles.box_peaky_blinders_Img}>
-                    <img className={styles.peaky_blinders_Img} src="https://i.imgur.com/5HzJu2v.png" />
+                    <img alt="React logo" className={styles.peaky_blinders_Img} src="https://i.imgur.com/5HzJu2v.png" />
                 </div>
                 <div className={styles.box_peaky_blinders_Lorem}>
                     <div className={styles.peaky_blinders_Lorem}>

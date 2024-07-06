@@ -50,7 +50,7 @@ function PageU() {
                 </h1>
                 <div className={styles.box_setting}>
                     <div className={styles.box_user_info}>
-                        <img className={styles.img_User} src={`${CurrentUser.imgUserIcon}`} />
+                        <img alt="React logo" className={styles.img_User} src={`${CurrentUser.imgUserIcon}`} />
                         <div className={styles.box_info_user}>
                             <p className={styles.setting_profil}>
                                 Имя: {CurrentUser.First_Name}

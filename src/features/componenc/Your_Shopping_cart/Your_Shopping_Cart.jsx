@@ -51,7 +51,7 @@ function ShoppingCard() {
                             <div key={index} className={styles.box_character}>
                                 <div className={styles.box_product}>
                                     <div className={styles.box_product_img}>
-                                        <img src={item.img} style={{ width: '130px' }} />
+                                        <img alt="React logo" src={item.img} style={{ width: '130px' }} />
                                         <div className={styles.box_description}>
                                             <p>
                                                 {item.name}
@@ -76,7 +76,7 @@ function ShoppingCard() {
                                         }
                                         dispatch(quantityMinus({ index: index, quantityArr: 1 }))
                                     }}>
-                                        <img className={styles.icon_actions} src="https://i.imgur.com/jzEYtX5.png" />
+                                        <img alt="React logo" className={styles.icon_actions} src="https://i.imgur.com/jzEYtX5.png" />
                                     </button>
                                     <p className={`${styles.box_quantity_temp} ${styles.p_quantity}`}>
                                         {item.quantityArr}
@@ -84,7 +84,7 @@ function ShoppingCard() {
                                     <button className={styles.box_quantity_temp} onClick={() => {
                                         dispatch(quantityPlus({ index: index, quantityArr: 1 }))
                                     }}>
-                                        <img className={styles.icon_actions} src="https://i.imgur.com/1aVIRQy.png" />
+                                        <img alt="React logo" className={styles.icon_actions} src="https://i.imgur.com/1aVIRQy.png" />
                                     </button>
                                 </div>
                                 <div>

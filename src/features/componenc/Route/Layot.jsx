@@ -122,7 +122,7 @@ function Layot() {
             {/* <div className={styles.boxContent_support}> */}
             <Support />
             {/* <div className={styles.supportManager}>
-                        <img className={styles.supportImg} src='https://i.imgur.com/HiQSyaJ.png' />
+                        <img alt="React logo" className={styles.supportImg} src='https://i.imgur.com/HiQSyaJ.png' />
                         <p>Поддержка</p>
                         <button onClick={() => {
                             console.log(true)

@@ -6,7 +6,7 @@ function Cart_page(params) {
     return (
         <div className={styles.box_cart}>
             <div>
-                <img src="https://i.imgur.com/Fnx0nxl.png" />
+                <img alt="React logo" src="https://i.imgur.com/Fnx0nxl.png" />
             </div>
             <div className={styles.box_email}>
                 <h1>
@@ -18,7 +18,7 @@ function Cart_page(params) {
                 <input className=""/>
             </div>
             <div>
-                <img src="https://i.imgur.com/O35V0N8.png" />
+                <img alt="React logo" src="https://i.imgur.com/O35V0N8.png" />
             </div>
         </div>
     )

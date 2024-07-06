@@ -79,7 +79,7 @@ function Demo_chek(params) {
                                     <h3 >
                                         Credit Card2
                                     </h3>
-                                    <img className={styles.credit_card_img} src="https://i.imgur.com/CymQ7z4.png" />
+                                    <img alt="React logo" className={styles.credit_card_img} src="https://i.imgur.com/CymQ7z4.png" />
                                 </div>
                                 <div className="" style={{ background: `${payment ? "#F5F5F5" : "white"}` }}>
                                     <div className={styles.mainContent}>
@@ -112,7 +112,7 @@ function Demo_chek(params) {
                                     <div key={index}>
                                         <div className={styles.box_corzina_items}>
                                             <div >
-                                                <img className={styles.box_img_items} src={item.img} />
+                                                <img alt="React logo" className={styles.box_img_items} src={item.img} />
                                             </div>
                                             <div>
                                                 <h2>

@@ -22,7 +22,7 @@ function SwiperCards() {
                 <SwiperSlide>
                     <div className={styles.boxCard}>
                         <div >
-                            <img className={styles.imgCard} src="https://i.imgur.com/HZZDNGT.png" alt="" />
+                            <img alt="React logo" className={styles.imgCard} src="https://i.imgur.com/HZZDNGT.png"  />
                         </div>
                         <div className={styles.boxInfo}>
                             <p className={styles.infoText}>
@@ -40,7 +40,7 @@ function SwiperCards() {
                 <SwiperSlide>
                     <div className={styles.boxCard}>
                         <div >
-                            <img className={styles.imgCard} src="https://i.imgur.com/okKuyE3.png" alt="" />
+                            <img alt="React logo" className={styles.imgCard} src="https://i.imgur.com/okKuyE3.png" />
                         </div>
                         <div className={styles.boxInfo}>
                             <p className={styles.infoText}>
@@ -58,7 +58,7 @@ function SwiperCards() {
                 </SwiperSlide>
                 <SwiperSlide><div className={styles.boxCard}>
                         <div >
-                            <img className={styles.imgCard} src="https://i.imgur.com/HZZDNGT.png" alt="" />
+                            <img alt="React logo" className={styles.imgCard} src="https://i.imgur.com/HZZDNGT.png"  />
                         </div>
                         <div className={styles.boxInfo}>
                             <p className={styles.infoText}>
@@ -75,7 +75,7 @@ function SwiperCards() {
                     </div></SwiperSlide>
                 <SwiperSlide><div className={styles.boxCard}>
                         <div >
-                            <img className={styles.imgCard} src="https://i.imgur.com/HZZDNGT.png" alt="" />
+                            <img alt="React logo" className={styles.imgCard} src="https://i.imgur.com/HZZDNGT.png"  />
                         </div>
                         <div className={styles.boxInfo}>
                             <p className={styles.infoText}>

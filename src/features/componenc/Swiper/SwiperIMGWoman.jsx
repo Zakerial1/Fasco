@@ -40,15 +40,15 @@ function SwiperIMGWoman() {
           console.log(swiper);
           swiperRef.current.swiper.slidePrev()
         }}>Prev</button> */}
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/LemOslv.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/E8C0ECl.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
-        <SwiperSlide><img className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/LemOslv.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/E8C0ECl.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
+        <SwiperSlide><img alt="React logo" className={styles.img_woman_sale_main} src="https://i.imgur.com/tQTnEJH.png" /></SwiperSlide>
       </Swiper>
     </>
   )

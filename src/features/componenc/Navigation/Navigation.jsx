@@ -42,7 +42,7 @@ function Navigation() {
                 </Link>
                 <p className={Users ? styles.box_registr : styles.box_registr_shadow}>
                     <Link to="/PageU">
-                        <img className={ styles.imgUser} src={`${User.imgUserIcon}`} />
+                        <img alt="React logo" className={ styles.imgUser} src={`${User.imgUserIcon}`} />
                     </Link>
                     {User.First_Name}
                 </p>

@@ -17,7 +17,7 @@ function Sing_in() {
         <div>
             <div className="box_main_sing">
                 <div>
-                    <img className="img_sing" src="https://i.imgur.com/fyFbr96.png" />
+                    <img alt="React logo" className="img_sing" src="https://i.imgur.com/fyFbr96.png" />
                 </div>
                 <div className="box_registr">
                     <div>
@@ -27,10 +27,10 @@ function Sing_in() {
                         <p className="textFASCO">Sign In To FASCO</p>
                         <div className='Sign_Google'>
                             <button className="but_Sign_up">
-                                <img className='icon_Sign' src='https://i.imgur.com/gRXfggd.png' />Sign up with Google
+                                <img alt="React logo" className='icon_Sign' src='https://i.imgur.com/gRXfggd.png' />Sign up with Google
                             </button>
                             <button className="but_Sign_up">
-                                <img className='icon_Sign' src='https://i.imgur.com/pMIKUH8.png' /> Sign up with Email
+                                <img alt="React logo" className='icon_Sign' src='https://i.imgur.com/pMIKUH8.png' /> Sign up with Email
                             </button>
                         </div>
                         <div className="text_or">

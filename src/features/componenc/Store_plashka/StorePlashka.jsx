@@ -63,25 +63,25 @@ function StorePlashka(props) {
             <div className={styles.box_main}>
                 <div className={styles.main}>
                     <div className={styles.box_imgCarousel}>
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
-                        <img className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
+                        <img alt="React logo" className={styles.imgCarousel} src={`${idPage.img}`} />
                     </div>
                     <div>
-                        <img className={styles.img_plashka} src={`${idPage.img}`} />
+                        <img  alt="React logo"className={styles.img_plashka} src={`${idPage.img}`} />
                     </div>
                     <div className={styles.infoPlashka}>
                         <p className="">Fasco</p>
                         <div className={styles.box_uniq}>
                             <h1>{idPage.name}</h1>
                             <button className={styles.uniq}>
-                                <img src="https://i.imgur.com/plLWMJX.png" className={styles.uniq} />
+                                <img alt="React logo"src="https://i.imgur.com/plLWMJX.png" className={styles.uniq} />
                             </button>
                         </div>
                         <p>{idPage.reiting}</p>
@@ -272,7 +272,7 @@ function StorePlashka(props) {
                         <div className={`${activeCorzina == true ? `${styles.corzina_butNone}` : `${styles.corzina_butBlock}`}`}>
                             <div className={styles.head_corzina}>
                                 <h2>Shopping Cart</h2>
-                                <img className={styles.icon_close} src="https://i.imgur.com/LVQdNK0.png" onClick={() => {
+                                <img alt="React logo" className={styles.icon_close} src="https://i.imgur.com/LVQdNK0.png" onClick={() => {
                                     if (!activeCorzina) {
                                         setActiveCorzina(true)
                                     }
@@ -288,7 +288,7 @@ function StorePlashka(props) {
                                             <div className={styles.box_corzina_item} key={index} >
 
                                                 <div>
-                                                    <img className={styles.img_corzina} src={`${item.img}`} />
+                                                    <img alt="React logo" className={styles.img_corzina} src={`${item.img}`} />
                                                 </div>
                                                 <div>
                                                     <p className={styles.name_item}>{item.name}</p>
@@ -373,7 +373,7 @@ function StorePlashka(props) {
                     </div>
                     <div >
                         {/* <div>
-                            <img className={starColor == true ? `${styles.starIMG}` : `${styles.starIMGOff}`} src={mouseX < 10 ? `${'https://i.imgur.com/9Ms57fP.png'}` : `${'https://i.imgur.com/euxMQ9t.png'}`} onMouseOver={() => {
+                            <img alt="React logo" className={starColor == true ? `${styles.starIMG}` : `${styles.starIMGOff}`} src={mouseX < 10 ? `${'https://i.imgur.com/9Ms57fP.png'}` : `${'https://i.imgur.com/euxMQ9t.png'}`} onMouseOver={() => {
                                 setStarColor(false);
 
                             }}
@@ -391,10 +391,10 @@ function StorePlashka(props) {
 
                                 }} />
                             <div className={mouseX <= 10 ? `${styles.starIMGHalfOn}` : `${styles.starIMGHalfOff}`}>
-                                <img className={styles.starIMGHalfOff} src="https://i.imgur.com/euxMQ9t.png"
+                                <img alt="React logo" className={styles.starIMGHalfOff} src="https://i.imgur.com/euxMQ9t.png"
 
                                 />
-                                <img src="https://i.imgur.com/9Ms57fP.png" />
+                                <img alt="React logo" src="https://i.imgur.com/9Ms57fP.png" />
                             </div>
                         </div> */}
                         <div>
@@ -432,15 +432,15 @@ function StorePlashka(props) {
                                     console.log(black)
                                 }}>
 
-                                <img className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
+                                <img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
 
-                                }} /><img className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
+                                }} /><img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
 
-                                }} /><img className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
+                                }} /><img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
 
-                                }} /><img className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
+                                }} /><img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
 
-                                }} /><img className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
+                                }} /><img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/9Ms57fP.png" onClick={() => {
 
                                 }} />
                             </div>
@@ -466,11 +466,11 @@ function StorePlashka(props) {
                             //     console.log(mouseX, mouseY)
                             // }}
                             >
-                                <img className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
-                                <img className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
-                                <img className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
-                                <img className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
-                                <img className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
+                                <img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
+                                <img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
+                                <img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
+                                <img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
+                                <img alt="React logo" className={styles.starIMG} src="https://i.imgur.com/euxMQ9t.png" />
                             </div>
                             <button onClick={() => {
                                 setBlack(true);

@@ -22,11 +22,11 @@ function ButNext() {
                 console.log(swiper);
                 swiper.slidePrev()
 
-            }}><img className={styles.arrow} src='https://i.imgur.com/nZDCuk4.png' /></button>
+            }}><img alt="React logo" className={styles.arrow} src='https://i.imgur.com/nZDCuk4.png' /></button>
             <button className={styles.swiperPrev} onClick={() => {
                 console.log(swiper);
                 swiper.slideNext()
-            }}><img className={styles.arrow} src='https://i.imgur.com/IVGe5a3.png' /></button>
+            }}><img alt="React logo" className={styles.arrow} src='https://i.imgur.com/IVGe5a3.png' /></button>
 
         </div>
     )
